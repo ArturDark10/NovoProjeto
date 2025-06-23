@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Você Decide o Futuro da IA</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="caixa-principal">
     <h1>Você Decide o Futuro da IA</h1>
 
     <div class="caixa-perguntas">
-      <h2>A IA deve substituir trabalhos repetitivos?</h2>
+      <h2 id="pergunta">Carregando pergunta...</h2>
     </div>
 
     <div class="caixa-alternativas">
-      <button class="botao" onclick="mostrarResultado('Sim, para aumentar a eficiência!')">Sim</button>
-      <button class="botao" onclick="mostrarResultado('Não, isso pode causar desemprego.')">Não</button>
+      <button class="botao" id="alternativa1"></button>
+      <button class="botao" id="alternativa2"></button>
     </div>
 
     <div class="caixa-resultado">
