@@ -3,27 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Você Decide o Futuro da IA</title>
   <link rel="stylesheet" href="style.css">
-  <title>Mangás Clássicos</title>
 </head>
 <body>
   <div class="caixa-principal">
-    <h1>Mangas aqui</h1>
+    <h1>Você Decide o Futuro da IA</h1>
 
     <div class="caixa-perguntas">
-      <h2>Qual tipo de mangá você gosta?</h2>
+      <h2>A IA deve substituir trabalhos repetitivos?</h2>
     </div>
 
     <div class="caixa-alternativas">
-      <button class="botao">Clássico</button>
-      <button class="botao">Drama</button>
-      <button class="botao">Psicológico</button>
-      <button class="botao">Mistério</button>
+      <button class="botao" onclick="mostrarResultado('Sim, para aumentar a eficiência!')">Sim</button>
+      <button class="botao" onclick="mostrarResultado('Não, isso pode causar desemprego.')">Não</button>
     </div>
 
     <div class="caixa-resultado">
-      <p class="texto-resultado">Aqui aparecerá sua escolha!</p>
+      <p class="texto-resultado" id="resultado"></p>
     </div>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
