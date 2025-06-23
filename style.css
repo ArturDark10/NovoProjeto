@@ -1,0 +1,77 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #000; /* fundo preto */
+    color: #fff; /* texto branco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .caixa-principal {
+    background-color: #111;
+    padding: 40px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    border: 1px solid #555;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .caixa-perguntas h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  .caixa-alternativas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .botao {
+    padding: 12px 24px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .botao:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .caixa-resultado {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+  }
+  
+  .texto-resultado {
+    font-size: 1.2em;
+    color: #ddd;
+  }
+  
