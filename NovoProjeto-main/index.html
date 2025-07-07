@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Missão IA - Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="caixa-principal">
+
+    <!-- Tela inicial -->
+    <div id="tela-inicial" class="tela">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Robô IA" class="imagem-inicial" />
+      <h1>Bem-vindo à Missão IA</h1>
+      <button id="btn-iniciar">Iniciar Missão</button>
+    </div>
+
+    <!-- Tela do quiz -->
+    <div id="tela-quiz" class="tela oculto">
+      <h1>Você decide o futuro da IA</h1>
+      <div class="caixa-perguntas"></div>
+      <div class="caixa-alternativas"></div>
+    </div>
+
+    <!-- Tela final -->
+    <div id="tela-final" class="tela oculto">
+      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" alt="Futuro IA" class="imagem-final" />
+      <h1>Missão Concluída!</h1>
+      <p class="texto-resultado"></p>
+      <button id="btn-reiniciar">Reiniciar</button>
+    </div>
+
+    <!-- Botão modo escuro/claro -->
+    <button id="btn-toggle-tema" class="botao-tema">Modo Escuro</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
